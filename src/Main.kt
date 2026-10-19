@@ -23,4 +23,5 @@ fun showMessage() {
 }
 fun getMax(a: Int, b: Int) {
     val max = if (a > b) a else b
+    println(max)
 }
