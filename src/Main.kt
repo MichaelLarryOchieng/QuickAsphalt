@@ -27,4 +27,6 @@ fun getMax(a: Int, b: Int): Int {
     return max
 }
 
-fun getMin()
+fun getMin(){
+    val min
+}
