@@ -28,5 +28,5 @@ fun getMax(a: Int, b: Int): Int {
 }
 
 fun getMin(){
-    val min
+    val min = if (a < b) a else b
 }
