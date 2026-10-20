@@ -21,7 +21,10 @@ fun getData(data: String) {
 fun showMessage() {
     println("There's no internet connection")
 }
-fun getMax(a: Int, b: Int) {
+
+fun getMax(a: Int, b: Int): Int {
     val max = if (a > b) a else b
-    println(max)
+    return max
 }
+
+fun getMin()
