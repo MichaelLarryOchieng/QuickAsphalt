@@ -1,5 +1,6 @@
 fun main(args: Array<String>) {
     sayHello(name = "Alex", age = 22)
+    val max = getMax(5, 9)
 
     val hasInternetConnection = false
     if (hasInternetConnection) {
