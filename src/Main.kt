@@ -29,7 +29,7 @@ fun getMax(a: Int, b: Int): Int {
     return max
 }
 
-fun getMin(){
+fun getMin(a: Int, b: Int): Int {
     val min = if (a < b) a else b
     return min
 }
