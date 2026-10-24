@@ -4,6 +4,10 @@ val names : Array<String> = arrayOf("John", "Stephen", "Megan")
     names[0] = "Alex"
     println("The first element is ${names[0]}")
     println("The size of the array is ${names.size}")
+
+    for (name in names) {
+        println(name)
+    }
 }
 
 
