@@ -1,35 +1,7 @@
 fun main(args: Array<String>) {
-    sayHello(name = "Alex", age = 22)
-    val max = getMax(5, 9)
-    val min = getMin(3, 4)
-
-    val hasInternetConnection = false
-    if (hasInternetConnection) {
-        getData(data = "Some data")
-    } else {
-        showMessage()
-    }
+val names : Array<String> = arrayOf("John", "Stephen", "Megan")
+    names[0] = "Alex"
+    println("The first element is ${names[0]}")
 }
 
-fun sayHello(name: String, age: Int) {
-    var number = age
-    println("Hello, $name! Your age is $age")
-}
 
-fun getData(data: String) {
-    println("Your data is: $data")
-}
-
-fun showMessage() {
-    println("There's no internet connection")
-}
-
-fun getMax(a: Int, b: Int): Int {
-    val max = if (a > b) a else b
-    return max
-}
-
-fun getMin(a: Int, b: Int): Int {
-    val min = if (a < b) a else b
-    return min
-}
