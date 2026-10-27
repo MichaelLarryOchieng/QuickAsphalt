@@ -10,7 +10,9 @@ val names : Array<String> = arrayOf("John", "Stephen", "Megan")
     }
 
     for (i in numbers) {
-        println(i)
+        if (i is String) {
+            println(i)
+        }
     }
 }
 
