@@ -16,7 +16,7 @@ val names : Array<String> = arrayOf("John", "Stephen", "Megan")
     }
 }
 
-fun findMax(numbers : Array<Int>){
+fun findMax(numbers : Array<Int>) : Int {
     var max = numbers[0]
 
     for (number in numbers){
@@ -24,7 +24,7 @@ fun findMax(numbers : Array<Int>){
             max = number
         }
     }
-
+    return max
 }
 
 
