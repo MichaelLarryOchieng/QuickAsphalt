@@ -19,7 +19,9 @@ val names : Array<String> = arrayOf("John", "Stephen", "Megan")
 fun findMax(numbers : Array<Int>){
     var max = numbers[0]
 
-    for (number in numbers){}
+    for (number in numbers){
+        if (number > max){}
+    }
 
 }
 
