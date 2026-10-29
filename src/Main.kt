@@ -20,7 +20,9 @@ fun findMax(numbers : Array<Int>){
     var max = numbers[0]
 
     for (number in numbers){
-        if (number > max){}
+        if (number > max){
+            max = number
+        }
     }
 
 }
