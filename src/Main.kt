@@ -9,9 +9,20 @@ fun main(args: Array<String>) {
     println("Model  = ${car1.model}")
     println("Color = ${car1.color}")
     println("Doors = ${car1.doors}")
-
     car1.move()
     car1.stop()
+
+    println("\n")
+
+    var car2 = Car()
+    car2.name = "Ford"
+    car2.model = "Mustang"
+    car2.color = "Blue"
+    car2.doors = "2"
+    println("Name = ${car2.name}")
+    println("Model  = ${car2.model}")
+    println("Color = ${car2.color}")
+    println("Doors = ${car2.doors}")
 
 }
 
