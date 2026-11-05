@@ -1,7 +1,8 @@
 fun main(args: Array<String>) {
-    val max = arrayOf(4, 2, 7, 8, 12, 55)
-    val min = arrayOf(1, 2, 3, 4, 76)
+    val max = findMax(arrayOf( 2, 7, 8, 12, 55))
+    val min = findMin(arrayOf(1, 2, 3, 4, 76))
     println("Max value = $max")
+    println("Min value = $min")
 }
 
 fun findMax(numbers : Array<Int>) : Int {
