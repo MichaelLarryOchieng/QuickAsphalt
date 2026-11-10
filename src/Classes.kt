@@ -1,7 +1,3 @@
-class Car{
-
-
-}
 
 class Calculator {
     fun sum(a:Int, b:Int) : Int{
