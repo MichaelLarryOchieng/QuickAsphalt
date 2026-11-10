@@ -4,12 +4,7 @@ fun main(args: Array<String>) {
 
     println("Sum is ${result}")
 }
-class Calculator {
-    fun sum(a:Int, b:Int) : Int{
-        return a+b
-    }
 
-}
 
 
 
