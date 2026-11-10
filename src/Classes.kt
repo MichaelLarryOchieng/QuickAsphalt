@@ -1,8 +1,5 @@
 class Car{
 
-    fun stop(){
-        println("The car is stopping")
-    }
 
 }
 
