@@ -16,9 +16,9 @@ class Person internal constructor(var name: String?) {
     }
 }
 
-public class PersonExample {
-    public static void main(String[] args)
-    {
+object PersonExample {
+    @JvmStatic
+    fun main(args: Array<String>) {
         val p1 = Person("Maaike")
         val p2 = Person("Sean")
 
@@ -32,4 +32,4 @@ public class PersonExample {
         println(p2.name)
         println(p1.getCount())
     }
-    }
+}
