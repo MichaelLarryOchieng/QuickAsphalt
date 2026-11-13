@@ -16,3 +16,7 @@ class Person internal constructor(var name: String?) {
         return count++
     }
 }
+
+public class PersonExample {
+
+}
