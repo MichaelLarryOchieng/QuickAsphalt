@@ -18,5 +18,9 @@ class Person internal constructor(var name: String?) {
 }
 
 public class PersonExample {
-
-}
+    public static void main(String[] args)
+    {
+        val p1 = Person("Maaike")
+        val p2 = Person("Sean")
+    }
+    }
