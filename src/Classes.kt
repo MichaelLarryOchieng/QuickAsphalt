@@ -27,5 +27,9 @@ public class PersonExample {
 
         p1.name = " Maaike van Basteen"
         p2.name = "Sean Dome"
+
+        println(p1.name)
+        println(p2.name)
+        println(p1.getCount())
     }
     }
