@@ -19,11 +19,11 @@ open class Vehicle(var name: String, var color: String){
     }
 }
 
-//class Car(name: String, color: String, var engines: Int, val doors: Int) : Vehicle(name,color){
-//
-//
-//}
-//
+class Car(name: String, color: String, var engines: Int, val doors: Int) : Vehicle(name,color){
+
+
+}
+
 //class Plane(name: String, color: String, var engines: Int, val doors: Int) : Vehicle(name,color){
 //    override fun move() {
 //        flying()
