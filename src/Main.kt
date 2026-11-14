@@ -24,16 +24,16 @@ class Car(name: String, color: String, var engines: Int, val doors: Int) : Vehic
 
 }
 
-//class Plane(name: String, color: String, var engines: Int, val doors: Int) : Vehicle(name,color){
-//    override fun move() {
-//        flying()
-//        super.move()
-//    }
-//
-//    fun flying(){
-//        println("The plane is flying")
-//    }
-//}
+class Plane(name: String, color: String, var engines: Int, val doors: Int) : Vehicle(name,color){
+    override fun move() {
+        flying()
+        super.move()
+    }
+
+    fun flying(){
+        println("The plane is flying")
+    }
+}
 //fun getData(result: Result){
 //    when(result){
 //        is Result.error -> result.showMessage()
