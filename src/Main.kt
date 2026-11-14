@@ -34,12 +34,12 @@ class Plane(name: String, color: String, var engines: Int, val doors: Int) : Veh
         println("The plane is flying")
     }
 }
-//fun getData(result: Result){
-//    when(result){
-//        is Result.error -> result.showMessage()
-//        is Result.success -> result.showMessage()
-//    }
-//}
+fun getData(result: Result){
+    when(result){
+        is Result.error -> result.showMessage()
+        is Result.success -> result.showMessage()
+    }
+}
 //sealed class Result(val message: String){
 //    fun showMessage(){
 //        println("Result: $message")
