@@ -16,20 +16,3 @@ class Person internal constructor(var name: String?) {
     }
 }
 
-object PersonExample {
-    @JvmStatic
-    fun main(args: Array<String>) {
-        val p1 = Person("Maaike")
-        val p2 = Person("Sean")
-
-        println(p1.name)
-        println(p1.getCount())
-
-        p1.name = " Maaike van Basteen"
-        p2.name = "Sean Dome"
-
-        println(p1.name)
-        println(p2.name)
-        println(p1.getCount())
-    }
-}
