@@ -10,15 +10,15 @@ fun main(args: Array<String>) {
 
 }
 
-//open class Vehicle(var name: String, var color: String){
-//    open fun move(){
-//        println("$name is moving")
-//    }
-//    open fun stop(){
-//        println("$name is stopping")
-//    }
-//}
-//
+open class Vehicle(var name: String, var color: String){
+    open fun move(){
+        println("$name is moving")
+    }
+    open fun stop(){
+        println("$name is stopping")
+    }
+}
+
 //class Car(name: String, color: String, var engines: Int, val doors: Int) : Vehicle(name,color){
 //
 //
