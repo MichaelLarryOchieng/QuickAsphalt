@@ -40,15 +40,15 @@ fun getData(result: Result){
         is Result.success -> result.showMessage()
     }
 }
-//sealed class Result(val message: String){
-//    fun showMessage(){
-//        println("Result: $message")
-//    }
-//    class success(message: String) : Result(message)
-//    class error(message: String) : Result(message)
-//}
-//
-//
+sealed class Result(val message: String){
+    fun showMessage(){
+        println("Result: $message")
+    }
+    class success(message: String) : Result(message)
+    class error(message: String) : Result(message)
+}
+
+
 
 
 
