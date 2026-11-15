@@ -8,6 +8,8 @@ fun main(args: Array<String>) {
     plane.move()
     plane.stop()
 
+    var calc =  Calculator()
+
 }
 
 open class Vehicle(var name: String, var color: String){
