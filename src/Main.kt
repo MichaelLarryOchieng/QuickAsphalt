@@ -9,6 +9,7 @@ fun main(args: Array<String>) {
     plane.stop()
 
     var calc =  Calculator()
+    val result = calc.sum(4, 6)
 
 }
 
