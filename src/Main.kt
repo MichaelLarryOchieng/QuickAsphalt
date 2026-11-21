@@ -1,21 +1,23 @@
-fun main(args: Array<String>) {
-    val name1 = 'Alex';
+fun main() {
 
 }
 
-abstract class Vehicle {
-    abstract fun move()
-
-    abstract fun stop()
+interface A {
+    fun print()
 }
 
-class Car(var name: String, var color: String, val engines: Int, val doors: Int) : Vehicle() {
+interface B {
+    fun print2()
+}
 
-    override fun move() {
+class FirstDelegate : A {
+    override fun print() {
 
     }
+}
 
-    override fun stop() {
+class SecondDelegate : B {
+    override fun print2() {
 
     }
 }
