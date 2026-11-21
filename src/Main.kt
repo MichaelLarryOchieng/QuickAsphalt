@@ -1,27 +1,30 @@
+import kotlin.properties.ReadWriteProperty
+import kotlin.reflect.KProperty
+
 fun main() {
 
 }
 
-class App : A by FirstDelegate(), B by SecondDelegate() {
-
+class User {
+    var firstName by FormatDelegate()
+    var lastName by FormatDelegate()
 }
 
-interface A {
-    fun print()
-}
+class FormatDelegate : ReadWriteProperty<Any?, String> {
+    private var formattedString: String = ""
 
-interface B {
-    fun print2()
-}
-
-open class FirstDelegate : A {
-    override fun print() {
-
+    override fun getValue(
+        thisRef: Any?,
+        property: KProperty<*>
+    ): String {
+        return formattedString
     }
-}
 
-open class SecondDelegate : B {
-    override fun print2() {
-
+    override fun setValue(
+        thisRef: Any?,
+        property: KProperty<*>,
+        value: String
+    ) {
+        formattedString = value.lowercase()
     }
 }
